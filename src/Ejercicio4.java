@@ -12,22 +12,22 @@ public class Ejercicio4 {
 
         System.out.println("Ejercicio 4");
 
-        String[][] elementos = new String[4][4];
+        String[][] elementos = new String[5][5];
 
         //Llenado de la matriz
-        for(int f = 0; f < 4; f++)
+        for(int f = 1; f <= 4; f++)
         {
-            for (int c = 0; c < 4; c++)
+            for (int c = 1; c <= 4; c++)
             {
                 System.out.println("Escriba el nombre de una elemento [" + f + "][" + c + "]");
                 elementos[f][c] = scanner.next();
             }
         }
 
-        for (int f = 0; f < 4; f++)
+        for (int f = 1; f <= 4; f++)
         {
             if ((f%2) != 0) {
-                for (int c = 0; c < 4; c++) {
+                for (int c = 1; c <= 4; c++) {
                     if ((c%2) !=0)
                     {
                         System.out.print(elementos[f][c] + "\t" );
