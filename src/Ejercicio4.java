@@ -26,9 +26,9 @@ public class Ejercicio4 {
 
         for (int f = 1; f <= 4; f++)
         {
-            if ((f%2) != 0) {
+            if ((f%2) == 0) {
                 for (int c = 1; c <= 4; c++) {
-                    if ((c%2) !=0)
+                    if ((c%2) ==0)
                     {
                         System.out.print(elementos[f][c] + "\t" );
                     }
